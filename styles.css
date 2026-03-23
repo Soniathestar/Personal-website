@@ -21,3 +21,19 @@ body{
     text-decoration: underline;
 }
 
+section{
+    padding: 40px;
+}
+
+.about-me{
+    background-color: #ffffff;
+}
+
+.about-me h2{
+    margin-bottom: 15px;
+}
+
+.about-me ul{
+    padding-left: 20px;
+    margin-top: 10px;
+}
