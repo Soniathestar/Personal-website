@@ -3,3 +3,21 @@ body{
     line-height: 1.6;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.Introheader{
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.Introheader a{
+    color: #00bfff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Introheader a:hover{
+    text-decoration: underline;
+}
+
