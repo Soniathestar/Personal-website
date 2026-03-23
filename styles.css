@@ -37,3 +37,41 @@ section{
     padding-left: 20px;
     margin-top: 10px;
 }
+
+.projects{
+    background-color: #e6e6e6;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-card{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.project-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.project-card a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #0077cc;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.project-card a:hover {
+    color: #005fa3;
+}
